@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename="/my-fridge">
         <Routes>
           <Route
             path="/"
