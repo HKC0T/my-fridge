@@ -1,13 +1,11 @@
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { createHashRouter, RouterProvider } from "react-router-dom";
-const router = createHashRouter([
-  {
-    path: "/*",
-    element: <App />,
-  },
-]);
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<RouterProvider router={<App />} />);
+root.render(
+  <HashRouter>
+    <App />
+  </HashRouter>
+);
