@@ -31,30 +31,28 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
-        <Routes>
-          <Route
-            path="/"
-            element={<Home setState={setItemList} state={itemList} />}
-          />
-          <Route
-            path="/new"
-            element={<NewItemForm setState={setItemList} state={itemList} />}
-          />
-          <Route
-            path="/grocery-list"
-            element={
-              <GroceryList setState={setGroceryList} state={groceryList} />
-            }
-          />
-          <Route
-            path="/grocery-list/new"
-            element={
-              <NewGroceryForm setState={setGroceryList} state={groceryList} />
-            }
-          />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home setState={setItemList} state={itemList} />}
+        />
+        <Route
+          path="/new"
+          element={<NewItemForm setState={setItemList} state={itemList} />}
+        />
+        <Route
+          path="/grocery-list"
+          element={
+            <GroceryList setState={setGroceryList} state={groceryList} />
+          }
+        />
+        <Route
+          path="/grocery-list/new"
+          element={
+            <NewGroceryForm setState={setGroceryList} state={groceryList} />
+          }
+        />
+      </Routes>
     </>
   );
 }
