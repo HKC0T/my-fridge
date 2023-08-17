@@ -7,11 +7,11 @@ export default function Header() {
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="/">myFridge</Navbar.Brand>
+          <Navbar.Brand href="/my-fridge">myFridge</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/grocery-list">Grocery list</Nav.Link>
+              <Nav.Link href="/my-fridge/grocery-list">Grocery list</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
