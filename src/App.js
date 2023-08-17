@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./styles.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./Layout";
+import { Route, Routes } from "react-router-dom";
 import NewItemForm from "./NewItemForm";
 import NewGroceryForm from "./NewGroceryForm";
 import Home from "./Home";
