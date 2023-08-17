@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.99e4cf39.css",
-    "main.js": "/static/js/main.933aa06d.js",
-    "index.html": "/index.html",
-    "main.99e4cf39.css.map": "/static/css/main.99e4cf39.css.map",
-    "main.933aa06d.js.map": "/static/js/main.933aa06d.js.map"
+    "main.css": "/my-fridge/static/css/main.99e4cf39.css",
+    "main.js": "/my-fridge/static/js/main.933aa06d.js",
+    "index.html": "/my-fridge/index.html",
+    "main.99e4cf39.css.map": "/my-fridge/static/css/main.99e4cf39.css.map",
+    "main.933aa06d.js.map": "/my-fridge/static/js/main.933aa06d.js.map"
   },
   "entrypoints": [
     "static/css/main.99e4cf39.css",
