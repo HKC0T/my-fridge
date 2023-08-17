@@ -12,12 +12,42 @@ import Header from "./Header";
 function App() {
   const [itemList, setItemList] = useState(() => {
     const localValue = localStorage.getItem("ITEMS");
-    return localValue == null ? [] : JSON.parse(localValue);
+    return localValue == null
+      ? [
+          {
+            id: "samplef1",
+            name: "Cheese",
+            quantity: 2,
+            expiry_date: "2023-08-22",
+            type: "Dairy",
+          },
+          {
+            id: "samplef2",
+            name: "Beef",
+            quantity: 4,
+            expiry_date: "2023-08-28",
+            type: "Meat",
+          },
+        ]
+      : JSON.parse(localValue);
   });
 
   const [groceryList, setGroceryList] = useState(() => {
     const localValue = localStorage.getItem("GROCERY");
-    return localValue == null ? [] : JSON.parse(localValue);
+    return localValue == null
+      ? [
+          {
+            id: "sampleg1",
+            name: "Pork",
+            quantity: 8,
+          },
+          {
+            id: "sampleg2",
+            name: "Pepper",
+            quantity: 1,
+          },
+        ]
+      : JSON.parse(localValue);
   });
 
   useEffect(() => {
