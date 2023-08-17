@@ -8,13 +8,7 @@ export default function Home({ state, setState }) {
   const navigate = useNavigate();
   return (
     <>
-      <div
-      // style={{
-      //   backgroundImage: `url('https://chatelaine.com/wp-content/uploads/2020/03/iStock-1176743190-810x608.jpg')`,
-      //   backgroundRepeat: "no-repeat",
-      //   height: "100vh",
-      // }}
-      >
+      <div>
         <Container>
           <div className="d-flex justify-content-between my-3">
             <h1>myFridge</h1>
